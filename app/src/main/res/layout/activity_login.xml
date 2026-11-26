@@ -14,7 +14,7 @@
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="20dp"
-        android:src="@drawable/logo_sabor_express" />
+        android:src="@drawable/logo" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtEmail"
@@ -35,7 +35,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtSenha"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="61dp"
         android:layout_marginBottom="20dp"
         android:hint="Insira sua senha"
         app:endIconMode="password_toggle"
@@ -45,14 +45,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:maxLength="16" />
+            android:maxLength="20"
+            android:minLength="12" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnAcessar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#F33D1A"
+        android:backgroundColor="#A020F0"
         android:padding="15sp"
         android:text="Acessar"
         android:textSize="20sp"
