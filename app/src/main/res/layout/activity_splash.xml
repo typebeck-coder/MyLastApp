@@ -5,10 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:gravity="center_vertical|center_horizontal"
     android:orientation="vertical"
-    tools:context=".SplashActivity"
-    android:background="@color/white">
+    tools:context=".SplashActivity">
 
     <ImageView
         android:layout_width="150dp"
@@ -21,24 +21,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CONTROLE DE ESTUDOS"
-        />
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Desenvolvido por:\nBrayan Presley\nLucas Kaike" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Desenvolvido por: \n Brayan Presley \n Lucas Kaike"
-        />
-
-    <TextView
-        android:layout_marginTop="30px"
-        android:layout_margin="30px"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Carregando..."
-        />
+        android:layout_margin="24dp"
+        android:text="Carregando..." />
 
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:indeterminate="true" />
 
 </LinearLayout>

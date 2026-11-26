@@ -35,7 +35,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txtSenha"
         android:layout_width="match_parent"
-        android:layout_height="61dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:hint="Insira sua senha"
         app:endIconMode="password_toggle"
@@ -45,15 +45,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:maxLength="20"
-            android:minLength="12" />
+            android:maxLength="16" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnAcessar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundColor="#A020F"
+        android:backgroundTint="#F33D1A"
         android:padding="15sp"
         android:text="Acessar"
         android:textSize="20sp"
