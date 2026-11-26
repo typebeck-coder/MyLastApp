@@ -53,7 +53,7 @@
         android:id="@+id/btnAcessar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundColor="#A020F0"
+        android:backgroundColor="#A020F"
         android:padding="15sp"
         android:text="Acessar"
         android:textSize="20sp"
