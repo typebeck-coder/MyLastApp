@@ -52,7 +52,8 @@
         android:id="@+id/btnAcessar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#F33D1A"
+        android:backgroundTint="#"
+        android:layout_marginTop="20dp"
         android:padding="15sp"
         android:text="Acessar"
         android:textSize="20sp"
@@ -62,10 +63,15 @@
         android:id="@+id/btnCadastrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FA890F"
+        android:backgroundTint="#"
+        android:layout_marginTop="20dp"
         android:padding="15sp"
         android:text="Cadastrar"
         android:textSize="20sp"
         app:cornerRadius="2dp" />
+
+
+
+
 
 </LinearLayout>
