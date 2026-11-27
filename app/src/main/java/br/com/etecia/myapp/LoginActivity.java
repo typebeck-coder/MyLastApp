@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
         btnAbrirMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                    startActivity(new Intent(getApplicationContext(),MenuActivity.class));
+                startActivity(new Intent(getApplicationContext(),MenuActivity.class));
                 finish();
             }
         });
