@@ -23,18 +23,19 @@ public class MenuActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
-            Button btnSair = findViewById(R.id.btnSair);
+         Button btnSair = findViewById(R.id.btnSair);
 
             btnSair.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     finish();
                 }
-            });
 
+
+
+
+
+            });
 
             }
         }
-
-

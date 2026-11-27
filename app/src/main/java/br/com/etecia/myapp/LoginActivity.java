@@ -24,6 +24,16 @@ public class LoginActivity extends AppCompatActivity {
             return insets;
         });
 
+        Button btncadastrar = findViewById(R.id.btnCadastrar);
+
+        btncadastrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), ActivityCadastro.class));
+                finish();
+            }
+        });
+
         Button btnAbrirMenu = findViewById(R.id.btnAcessar);
 
         btnAbrirMenu.setOnClickListener(new View.OnClickListener() {
@@ -33,8 +43,6 @@ public class LoginActivity extends AppCompatActivity {
                 finish();
             }
         });
-
-
 
     }
 }
