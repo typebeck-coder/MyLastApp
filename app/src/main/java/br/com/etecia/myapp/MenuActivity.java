@@ -24,6 +24,7 @@ public class MenuActivity extends AppCompatActivity {
             return insets;
         });
 
+<<<<<<< HEAD
             Button btnSair = findViewById(R.id.btnSair);
 
             btnSair.setOnClickListener(new View.OnClickListener() {
@@ -33,5 +34,10 @@ public class MenuActivity extends AppCompatActivity {
                 }
             });
 
+=======
+
+        startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+        finish();
+>>>>>>> tela-login
     }
 }
