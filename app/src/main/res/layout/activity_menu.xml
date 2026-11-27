@@ -1,11 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity">
+    android:orientation="vertical"
+    tools:context="MenuActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp"
+        android:text="Menu Principal"
+        android:textColor="#1E293B"
+        android:textSize="26sp"
+        android:textStyle="bold" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="28dp"
+        android:text="Escolha uma opção"
+        android:textColor="#64748B"
+        android:textSize="14sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCadastrarEstudos"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="6dp"
+        android:backgroundTint="#2563EB"
+        android:text="Cadastrar Estudos"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:cornerRadius="12dp"
+        app:elevation="3dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnConsultarEstudos"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="6dp"
+        android:backgroundTint="#F8FAFC"
+        android:text="Consultar Estudos"
+        android:textAllCaps="false"
+        android:textColor="#1E293B"
+        android:textSize="16sp"
+        app:cornerRadius="12dp"
+        app:strokeColor="#CBD5E1"
+        app:strokeWidth="1.5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPerfilEstudante"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="6dp"
+        android:backgroundTint="#F8FAFC"
+        android:text="Perfil do Estudante"
+        android:textAllCaps="false"
+        android:textColor="#1E293B"
+        android:textSize="16sp"
+        app:cornerRadius="12dp"
+        app:strokeColor="#CBD5E1"
+        app:strokeWidth="1.5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEstatisticas"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="6dp"
+        android:backgroundTint="#F8FAFC"
+        android:text="Estatísticas"
+        android:textAllCaps="false"
+        android:textColor="#1E293B"
+        android:textSize="16sp"
+        app:cornerRadius="12dp"
+        app:strokeColor="#CBD5E1"
+        app:strokeWidth="1.5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAjuda"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="6dp"
+        android:backgroundTint="#F8FAFC"
+        android:text="Ajuda"
+        android:textAllCaps="false"
+        android:textColor="#1E293B"
+        android:textSize="16sp"
+        app:cornerRadius="12dp"
+        app:strokeColor="#CBD5E1"
+        app:strokeWidth="1.5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSobre"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="6dp"
+        android:backgroundTint="#F8FAFC"
+        android:text="Sobre"
+        android:textAllCaps="false"
+        android:textColor="#1E293B"
+        android:textSize="16sp"
+        app:cornerRadius="12dp"
+        app:strokeColor="#CBD5E1"
+        app:strokeWidth="1.5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSair"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:text="Sair do Aplicativo"
+        android:textAllCaps="false"
+        android:textColor="#DC2626"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="12dp" />
+
+
+</LinearLayout>
