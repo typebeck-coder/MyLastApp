@@ -2,6 +2,8 @@ package br.com.etecia.myapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,8 +24,17 @@ public class LoginActivity extends AppCompatActivity {
             return insets;
         });
 
-        startActivity(new Intent(getApplicationContext(),MenuActivity.class));
-        finish();
+        Button btnAbrirMenu = findViewById(R.id.btnAcessar);
+
+        btnAbrirMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                    startActivity(new Intent(getApplicationContext(),MenuActivity.class));
+                finish();
+            }
+        });
+
+
 
     }
 }

@@ -23,7 +23,6 @@ public class MenuActivity extends AppCompatActivity {
         });
 
 
-        startActivity(new Intent(getApplicationContext(),LoginActivity.class));
-        finish();
+
     }
 }
